@@ -5,3 +5,25 @@ body{
 	font-family: 'Roboto', sans-serif;
 	background-image: url(images/patt.png);
 }
+.container{
+	width: 1170px;
+	margin: 0 auto;
+}
+.logo{
+	padding-top: 10px;
+}
+.col-3{
+	width: 25%;
+}
+.col-6{
+	width: 50%;
+}
+[class*="col-"]{
+float:left
+
+}
+.row:after, .menu:after {
+	content: "";
+	clear: both;
+	display: block;
+}
