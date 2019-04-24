@@ -70,5 +70,6 @@ toggleButtonState(nextCount)
 $('.slider-block').slick({
     dots:true,
     slidesToShow: 1,
+
   });
 
